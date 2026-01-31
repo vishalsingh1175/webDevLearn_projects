@@ -1,0 +1,52 @@
+body{
+    margin: 100px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "arial",sans-serif;
+    background: gray;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 4rem;
+    color: #deaeae;
+}
+.container{
+    align-items: space-around;
+    padding: 1rem;
+    margin: 1rem;
+}
+button{
+    font-size: 7rem;
+    margin: 1rem;
+    border-radius: 40%;
+    border: 2px solid red;
+
+    background: #55ead6;
+    cursor: pointer;
+    transition: background 0.5s ease;
+}
+button:hover{
+    background: #88f5e8;
+}
+.player,.computer,.result{
+    font-size: 2.5rem;
+    margin: 1rem;
+    color: skyblue;
+}
+.result{
+    color: black;
+}
+.greenText,.playerScore{
+color: #7cd97c;
+}
+.redText,.computerScore{
+    color: red;
+}
+.scoreDisplay{
+    font-size: 3rem;
+    color: white;
+
+}
